@@ -82,4 +82,11 @@ public class ArticleController {
         articleRepository.save(article);
         return "redirect:/index";
     }
+
+    //@PostMapping("/save")
+    //public String save(Model model, @Valid Article article, BindingResult bindingResult) {
+     //   if(bindingResult.hasErrors()) return "article";
+     //   articleRepository.save(article);
+     //   return "redirect:/index";
+    //}
 }
